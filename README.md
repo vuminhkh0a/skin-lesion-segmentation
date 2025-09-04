@@ -1,4 +1,4 @@
-# Medical AI Challenge 1: Binary Skin Lesion Segmentation
+# [Warm-up][AI VIETNAM] Kaggle challenge: Binary Skin Lesion Segmentation
 
 ## 📝 Description
 This is the first challenge in the **Medical AI Challenge Series**, designed to help participants get started with Medical AI.  
