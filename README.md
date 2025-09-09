@@ -23,9 +23,8 @@ The task focuses on **dermatoscopic skin images (2D)** with the objective of bui
 ## Dataset Description
 The dataset includes dermatoscopic images with corresponding binary masks
 
-- **Files**:
-  - `Train/` → training images and their corresponding masks
-  - `Test/` → test images for submission  
+- `Train/` → training images and their corresponding masks
+- `Test/` → test images for submission  
 
 
 
