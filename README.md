@@ -1,18 +1,18 @@
 # [Warm-up][AI VIETNAM] Kaggle Challenge: Binary Skin Lesion Segmentation
 
-## 📝 Description
+## Description
 This challenge is the first in the **Medical AI Challenge Series**, created to support participants in exploring and practicing Medical AI.  
 The task focuses on **dermatoscopic skin images (2D)** with the objective of building an automated system for **binary skin lesion segmentation**.
 
 ---
 
-## 🎯 Goal
+## Goal
 - Develop and train a model that segments lesions from dermatoscopic images.  
 - Evaluate segmentation performance using the **Dice score**.
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 - **Metric**: Dice Score, a commonly used measure in medical image segmentation.  
 - **Submission Rules**:
   - Each participant is allowed **7 submissions per day**.  
@@ -23,7 +23,7 @@ The task focuses on **dermatoscopic skin images (2D)** with the objective of bui
 
 ---
 
-## 📦 Dataset Description
+## Dataset Description
 The dataset includes dermatoscopic images with corresponding binary masks.
 
 - **Files**:
@@ -37,7 +37,7 @@ The dataset includes dermatoscopic images with corresponding binary masks.
 
 ---
 
-## 📐 Submission Format
+## Submission Format
 To meet file size constraints, **Run-Length Encoding (RLE)** is used to represent predicted masks:  
 - Pixels are **1-indexed** and ordered **top-to-bottom, left-to-right**.  
 - Example encodings:
