@@ -4,13 +4,12 @@
 This challenge is the first in the **Medical AI Challenge Series**, created to support participants in exploring and practicing Medical AI.  
 The task focuses on **dermatoscopic skin images (2D)** with the objective of building an automated system for **binary skin lesion segmentation**.
 
----
 
 ## Goal
 - Develop and train a model that segments lesions from dermatoscopic images.  
 - Evaluate segmentation performance using the **Dice score**.
 
----
+
 
 ## Evaluation
 - **Metric**: Dice Score, a commonly used measure in medical image segmentation.  
@@ -21,7 +20,7 @@ The task focuses on **dermatoscopic skin images (2D)** with the objective of bui
     - **Private phase**: the final leaderboard is revealed after the challenge deadline.  
   - A maximum of **2 submissions** can be selected for the final private evaluation.  
 
----
+
 
 ## Dataset Description
 The dataset includes dermatoscopic images with corresponding binary masks.
@@ -35,7 +34,7 @@ The dataset includes dermatoscopic images with corresponding binary masks.
   - `ID` → unique identifier for each image.  
   - `Predicted_Mask` → predicted segmentation mask encoded in Run-Length Encoding (RLE).  
 
----
+
 
 ## Submission Format
 To meet file size constraints, **Run-Length Encoding (RLE)** is used to represent predicted masks:  
