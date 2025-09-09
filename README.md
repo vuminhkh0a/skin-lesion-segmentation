@@ -25,5 +25,6 @@ To meet file size constraints, **Run-Length Encoding (RLE)** is used to represen
 
 ## Result:
 Achieve 0.90105 public score (#2)
+![alt text](rank.png)
 
 
