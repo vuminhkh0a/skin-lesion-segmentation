@@ -27,9 +27,7 @@ The dataset includes dermatoscopic images with corresponding binary masks
   - `Train/` → training images and their corresponding masks
   - `Test/` → test images for submission  
 
-- **Columns**:
-  - `ID` → unique identifier for each image 
-  - `Predicted_Mask` → predicted segmentation mask encoded in Run-Length Encoding (RLE)  
+
 
 
 
