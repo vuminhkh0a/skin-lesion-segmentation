@@ -18,7 +18,11 @@ The dataset includes dermatoscopic images with corresponding binary masks
 
 ## Submission Format
 To meet file size constraints, **Run-Length Encoding (RLE)** is used to represent predicted masks:  
-- Pixels are **1-indexed** and ordered **top-to-bottom, left-to-right**.  
+- Pixels are **1-indexed** and ordered **top-to-bottom, left-to-right**
 - Example encodings:
-  - `"1 3"` → pixels 1, 2, 3 belong to the mask.  
-  - `"1 3 10 5"` → pixels 1, 2, 3, 10, 11, 12, 13, 14 belong to the mask.  
+  - `"1 3"` → pixels 1, 2, 3 belong to the mask
+  - `"1 3 10 5"` → pixels 1, 2, 3, 10, 11, 12, 13, 14 belong to the mask
+
+## Result:
+Achieve 0.90105 public score
+
