@@ -20,14 +20,11 @@ The task focuses on **dermatoscopic skin images (2D)** with the objective of bui
   - A maximum of **2 submissions** can be selected for the final private evaluation
 
 
-## Dataset Description
+## Dataset 
 The dataset includes dermatoscopic images with corresponding binary masks
 
 - `Train/` → training images and their corresponding masks
 - `Test/` → test images for submission  
-
-
-
 
 
 ## Submission Format
