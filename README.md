@@ -1,38 +1,35 @@
 # [Warm-up][AI VIETNAM] Kaggle Challenge: Binary Skin Lesion Segmentation
 
 ## Description
-This challenge is the first in the **Medical AI Challenge Series**, created to support participants in exploring and practicing Medical AI.  
-The task focuses on **dermatoscopic skin images (2D)** with the objective of building an automated system for **binary skin lesion segmentation**.
+This is a private challenge of **AIMA Warm-up reasearch program**, created to support participants in exploring and practicing Medical AI.  
+The task focuses on **dermatoscopic skin images (2D)** with the objective of building an model for **binary skin lesion segmentation**
 
 
 ## Goal
-- Develop and train a model that segments lesions from dermatoscopic images.  
-- Evaluate segmentation performance using the **Dice score**.
-
+- Develop and train a model that segments lesions from dermatoscopic images  
+- Evaluate segmentation performance using the **Dice score**
 
 
 ## Evaluation
-- **Metric**: Dice Score, a commonly used measure in medical image segmentation.  
+- **Metric**: Dice Score 
 - **Submission Rules**:
-  - Each participant is allowed **7 submissions per day**.  
+  - Each participant is allowed **7 submissions per day**
   - The evaluation process is divided into two phases:
-    - **Public phase**: scores are displayed immediately after submission.  
-    - **Private phase**: the final leaderboard is revealed after the challenge deadline.  
-  - A maximum of **2 submissions** can be selected for the final private evaluation.  
-
+    - **Public phase**: scores are displayed immediately after submission
+    - **Private phase**: the final leaderboard is revealed after the challenge deadline
+  - A maximum of **2 submissions** can be selected for the final private evaluation
 
 
 ## Dataset Description
-The dataset includes dermatoscopic images with corresponding binary masks.
+The dataset includes dermatoscopic images with corresponding binary masks
 
 - **Files**:
-  - `Train/` → contains training images and their corresponding masks.  
-  - `Test/` → contains test images for evaluation.  
-  - `sample_submission.csv` → example submission file provided in the required format.  
+  - `Train/` → training images and their corresponding masks
+  - `Test/` → test images for submission  
 
 - **Columns**:
-  - `ID` → unique identifier for each image.  
-  - `Predicted_Mask` → predicted segmentation mask encoded in Run-Length Encoding (RLE).  
+  - `ID` → unique identifier for each image 
+  - `Predicted_Mask` → predicted segmentation mask encoded in Run-Length Encoding (RLE)  
 
 
 
