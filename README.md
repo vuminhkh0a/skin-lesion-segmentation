@@ -1,8 +1,7 @@
 # [Warm-up][AI VIETNAM] Kaggle Challenge: Binary Skin Lesion Segmentation
 
 ## Description
-This is a private challenge of **AIMA Warm-up reasearch program**, created to support participants in exploring and practicing Medical AI.  
-The task focuses on **dermatoscopic skin images (2D)** with the objective of building an model for **binary skin lesion segmentation**
+This is a private challenge of **AIMA Warm-up reasearch program**, created to support participants in exploring and practicing Medical AI. The task focuses on **dermatoscopic skin images (2D)** with the objective of building an model for **binary skin lesion segmentation**
 
 
 ## Goal
