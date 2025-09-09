@@ -24,7 +24,7 @@ To meet file size constraints, **Run-Length Encoding (RLE)** is used to represen
   - `"1 3 10 5"` → pixels 1, 2, 3, 10, 11, 12, 13, 14 belong to the mask
 
 ## Result:
-Achieve 0.90105 public score (#2)
+Achieve 0.90105 public score (#2). This leaderboard is calculated with approximately 9% of the test data. The final results will be based on the other 91%, so the final standings may be different at the end of the challenge
 
 ![alt text](rank.png)
 
